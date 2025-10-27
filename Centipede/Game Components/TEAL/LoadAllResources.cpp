@@ -13,25 +13,25 @@ void ResourceManager::LoadAllResources()
 {
 	SetStartScene(new Attractor());
 
-	AddTexture("Blaster", "\\..\\..\\..\\..\\..\\reference\\Asset\\Sprites\\blaster.png");
-	AddTexture("Bullet", "\\..\\..\\..\\..\\..\\reference\\Asset\\Sprites\\bullet.png");
-	AddTexture("CentipedeBody", "\\..\\..\\..\\..\\..\\reference\\Asset\\Sprites\\centipede_segment.png");
-	AddTexture("CentipedeHead", "\\..\\..\\..\\..\\..\\reference\\Asset\\Sprites\\centipede_head.png");
-	AddTexture("ExplosionBig", "\\..\\..\\..\\..\\..\\reference\\Asset\\Sprites\\death.png");
-	AddTexture("ExplosionSmall", "\\..\\..\\..\\..\\..\\reference\\Asset\\Sprites\\spawn.png");
-	AddTexture("ExplosionSpider", "\\..\\..\\..\\..\\..\\reference\\Asset\\Sprites\\SPRITES.png");
-	AddTexture("Flea", "\\..\\..\\..\\..\\..\\reference\\Asset\\Sprites\\flea.png");
-	AddTexture("HUDFont", "\\..\\..\\..\\..\\..\\reference\\Asset\\Sprites\\FONTwPLAYER.bmp");
-	AddTexture("Mushroom", "\\..\\..\\..\\..\\..\\reference\\Asset\\Sprites\\mushroom.png");
-	AddTexture("Scorpion", "\\..\\..\\..\\..\\..\\reference\\Asset\\Sprites\\scorpion.png");
-	AddTexture("Spider", "\\..\\..\\..\\..\\..\\reference\\Asset\\Sprites\\spider.png");
+	AddTexture("Blaster", "..\\..\\Asset\\Sprites\\blaster.png");
+	AddTexture("Bullet", "..\\..\\Asset\\Sprites\\bullet.png");
+	AddTexture("CentipedeBody", "..\\..\\Asset\\Sprites\\centipede_segment.png");
+	AddTexture("CentipedeHead", "..\\..\\Asset\\Sprites\\centipede_head.png");
+	AddTexture("ExplosionBig", "\\..\\..\\Asset\\Sprites\\death.png");
+	AddTexture("ExplosionSmall", "\\..\\..\\Asset\\Sprites\\spawn.png");
+	AddTexture("ExplosionSpider", "\\..\\..\\Asset\\Sprites\\SPRITES.png");
+	AddTexture("Flea", "\\..\\..\\Asset\\Sprites\\flea.png");
+	AddTexture("HUDFont", "\\..\\..\\Asset\\Sprites\\FONTwPLAYER.bmp");
+	AddTexture("Mushroom", "\\..\\..\\Asset\\Sprites\\mushroom.png");
+	AddTexture("Scorpion", "\\..\\..\\Asset\\Sprites\\scorpion.png");
+	AddTexture("Spider", "\\..\\..\\Asset\\Sprites\\spider.png");
 
-	AddSound("Centipede", "\\..\\..\\..\\..\\..\\reference\\Asset\\Sounds\\newBeat.wav");
-	AddSound("CritterDeath", "\\..\\..\\..\\..\\..\\reference\\Asset\\Sounds\\kill.wav");
-	AddSound("Flea", "\\..\\..\\..\\..\\..\\reference\\Asset\\Sounds\\flea_new.wav");
-	AddSound("PlayerDeath", "\\..\\..\\..\\..\\..\\reference\\Asset\\Sounds\\death.wav");
-	AddSound("PlayerFire", "\\..\\..\\..\\..\\..\\reference\\Asset\\Sounds\\fire1.wav");
-	AddSound("Scorpion", "\\..\\..\\..\\..\\..\\reference\\Asset\\Sounds\\scorpion_new.wav");
-	AddSound("Spider", "\\..\\..\\..\\..\\..\\reference\\Asset\\Sounds\\spiderloop.wav");
+	AddSound("Centipede", "\\..\\..\\Asset\\Sounds\\newBeat.wav");
+	AddSound("CritterDeath", "\\..\\..\\Asset\\Sounds\\kill.wav");
+	AddSound("Flea", "\\..\\..\\Asset\\Sounds\\flea_new.wav");
+	AddSound("PlayerDeath", "\\..\\..\\Asset\\Sounds\\death.wav");
+	AddSound("PlayerFire", "\\..\\..\\Asset\\Sounds\\fire1.wav");
+	AddSound("Scorpion", "\\..\\..\\Asset\\Sounds\\scorpion_new.wav");
+	AddSound("Spider", "\\..\\..\\Asset\\Sounds\\spiderloop.wav");
 }
 
